@@ -8,7 +8,9 @@ function App() {
 
   return (
     <>
-      <div></div>
+      <div>
+        <h1>How did we do?</h1>
+      </div>
     </>
   );
 }
