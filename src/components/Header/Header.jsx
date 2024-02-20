@@ -3,6 +3,9 @@ import React from "react";
 export default function Header() {
   return (
     <>
+      <div className="img-div">
+        <img className="star-img" src="./public/icon-star.svg" alt="star" />
+      </div>
       <h1> How did we do?</h1>
       <p>
         Please let us know how we did with your support request. All feedback is
