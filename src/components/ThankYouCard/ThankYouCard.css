@@ -1,0 +1,22 @@
+img {
+  width: 220px;
+  margin: auto;
+  padding: 20px 0 20px;
+}
+.selected-score {
+  background-color: #262e38;
+  padding: 1vh;
+  border-radius: 20px;
+  color: orange;
+  width: 60%;
+  align-self: center;
+  font-style: bold;
+  font-size: 1.2rem;
+}
+h2 {
+  align-self: center;
+}
+p {
+  align-self: center;
+  padding: 0 20px;
+}

@@ -2,15 +2,14 @@
   display: flex;
   margin: auto;
   gap: 2vh;
+  padding: 15px;
 }
 
 .pagination a {
   background: #262e38;
   border-radius: 50%;
   color: #7b8696;
-  float: left;
   padding: 15px 25px;
-  text-decoration: none;
   transition: background-color 0.3s;
 }
 
