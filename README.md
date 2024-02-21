@@ -4,6 +4,8 @@
 
 This project is a simple feedback collector built with React. It allows users to rate a service on a scale of 1 to 5 and submit their feedback.
 
+<img src="./public/og:image.jpg" alt="og:image" width="300px" >
+
 ## Highlights
 
 - **React Components**: The project is structured using several React components:
