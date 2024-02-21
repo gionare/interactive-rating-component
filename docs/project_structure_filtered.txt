@@ -1,7 +1,5 @@
 --- Folder Structure ---
-.eslintrc.cjs
-[.git]
-    ├── COMMIT_EDITMSG
+
     ├── FETCH_HEAD
     ├── HEAD
     ├── ORIG_HEAD
@@ -224,21 +222,13 @@
             └── [origin]
                 └── master
         └── [tags]
-.gitignore
-README.md
-[docs]
     ├── .project_structure_filter
     ├── .project_structure_ignore
     └── project_structure.txt
-index.html
-package-lock.json
-package.json
 [public]
     ├── og:image.jpg
     └── vite.svg
 [src]
-    ├── App.css
-    ├── App.jsx
     ├── [assets]
         ├── icon-star.svg
         └── illustration-thank-you.svg
@@ -255,8 +245,15 @@ package.json
         └── [ThankYouCard]
             ├── ThankYouCard.css
             └── ThankYouCard.jsx
+    ├── App.css
+    ├── App.jsx
     ├── index.css
     └── main.jsx
+.gitignore
+index.html
+package-lock.json
+package.json
+README.md
 vite.config.js
 
 --- File Contents ---
