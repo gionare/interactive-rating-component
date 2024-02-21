@@ -2,11 +2,15 @@ h2 {
   font-size: 3vh;
 }
 .img-div {
-  width: 25px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
-  padding: 15px;
-  background: #262e38;
+  background-color: #262e38;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 .star-img {
-  width: 25px;
+  width: 20px; /* Set width of the star image */
+  height: 20px; /* Set height of the star image */
 }

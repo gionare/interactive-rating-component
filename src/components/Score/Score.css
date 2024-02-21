@@ -1,22 +1,24 @@
 .pagination {
+  /* border: solid; */
   display: flex;
-  margin: auto;
-  gap: 2vh;
+  justify-content: space-around;
+
   padding: 15px;
 }
 
-.pagination a {
+.pagination button {
   background: #262e38;
+  color: #6f4d4d;
   border-radius: 50%;
-  color: #7b8696;
-  padding: 15px 25px;
+  padding: 15px 20px;
   transition: background-color 0.3s;
 }
 
-.pagination a.active {
-  background-color: #4caf50;
-  color: white;
-}
-.pagination a:hover:not(.active) {
+button:hover:not(.active) {
   background-color: #ddd;
+}
+
+.pagination .active {
+  background-color: #fc7614;
+  color: white;
 }

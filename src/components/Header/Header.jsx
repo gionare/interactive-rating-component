@@ -1,3 +1,4 @@
+import star from "../../assets/icon-star.svg";
 import React from "react";
 import "./Header.css";
 
@@ -5,7 +6,7 @@ export default function Header() {
   return (
     <>
       <div className="img-div">
-        <img className="star-img" src="./public/icon-star.svg" alt="star" />
+        <img className="star-img" src={star} alt="star" />
       </div>
       <h2> How did we do?</h2>
       <p>

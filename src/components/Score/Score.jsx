@@ -1,15 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Score.css";
 
-export default function Score() {
-  // FIXME: onclick, need to give: class="active"
+export default function Score(props) {
+  let buttons = [1, 2, 3, 4, 5];
+  console.log("selected rate is: " + props.rate);
   return (
-    <div class="pagination">
-      <a href="#">1</a>
-      <a href="#">2</a>
-      <a href="#">3</a>
-      <a href="#">4</a>
-      <a href="#">5</a>
+    <div className="pagination">
+      {buttons.map((item) => (
+        <button
+          onClick={() => {
+            props.setRate(item);
+          }}
+          key={item} // neccessary when mapping, or Math.random(), its kinda Id
+          className={item == props.rate ? "active" : ""}
+        >
+          <a href="#"> {item} </a>
+        </button>
+      ))}
     </div>
   );
 }
