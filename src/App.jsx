@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Score from "./components/Score/Score";
 import Btn from "./components/Btn/Btn";
 import ThankYouCard from "./components/ThankYouCard/ThankYouCard";
+import Fire from "./components/Fire/Fire";
 
 function App() {
   const [submit, setSubmit] = useState(false); // using props for Btn.jsx
@@ -12,15 +13,17 @@ function App() {
   return (
     // state lifting is happening here e.x rate={rate}
     <div className="card">
-      {submit ? (
-        <ThankYouCard rate={rate} />
-      ) : (
-        <>
-          <Header />
-          <Score rate={rate} setRate={setRate} />
-          <Btn setSubmit={setSubmit} rate={rate} />
-        </>
-      )}
+      <div className="box">
+        {submit ? (
+          <ThankYouCard rate={rate} />
+        ) : (
+          <>
+            <Header />
+            <Score rate={rate} setRate={setRate} />
+            <Btn setSubmit={setSubmit} rate={rate} />
+          </>
+        )}
+      </div>
     </div>
   );
 }
